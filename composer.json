@@ -1,0 +1,20 @@
+{
+    "name": "moarty/cassandra-php-stubs",
+    "type": "library",
+    "description": "The Cassandra php driver library IDE stubs which enables autocompletion in modern IDEs.",
+    "keywords": [
+        "Cassandra",
+        "php",
+        "DevTools",
+        "IDE",
+        "Stubs",
+        "Stub",
+        "PhpStorm",
+        "Netbeans",
+        "Eclipse",
+        "autocomplete"
+    ],
+    "require": {
+      "php": ">=5.6.0"
+    }
+}
