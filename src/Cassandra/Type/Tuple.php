@@ -53,7 +53,7 @@ final class Tuple extends Type {
      *
      * @param mixed $values ,... One or more values to be added to the tuple.
      *
-     * @throws Exception\InvalidArgumentException when values given are of a
+     * @throws \Cassandra\Exception\InvalidArgumentException when values given are of a
      *                                            different type than what the
      *                                            tuple expects.
      *

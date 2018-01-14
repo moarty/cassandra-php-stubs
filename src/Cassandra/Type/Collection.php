@@ -53,7 +53,7 @@ final class Collection extends Type {
      *
      * @param mixed $value ,...      One or more values to be added to the list.
      *
-     * @throws Exception\InvalidArgumentException when values given are of a
+     * @throws \Cassandra\Exception\InvalidArgumentException when values given are of a
      *                                            different type than what this
      *                                            list type expects.
      *

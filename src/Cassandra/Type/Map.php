@@ -77,7 +77,7 @@ final class Map extends Type {
      *
      * @param mixed $value ,... An even number of values, where each odd value
      *
-     * @throws Exception\InvalidArgumentException when keys or values given are
+     * @throws \Cassandra\Exception\InvalidArgumentException when keys or values given are
      *                                            of a different type than what
      *                                            this map type expects.
      *

@@ -76,7 +76,7 @@ final class Builder {
      *
      * @param int $port a number between 1 and 65535
      *
-     * @throws \Exception\InvalidArgumentException
+     * @throws \Cassandra\Exception\InvalidArgumentException
      *
      * @return Builder self
      */
@@ -286,7 +286,7 @@ final class Builder {
     /**
      * Configures the retry policy.
      *
-     * @param Cluster\RetryPolicy $policy the retry policy to use.
+     * @param \Cassandra\Cluster\RetryPolicy $policy the retry policy to use.
      *
      * @return Builder self
      */

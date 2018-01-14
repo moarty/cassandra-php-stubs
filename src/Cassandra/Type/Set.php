@@ -52,7 +52,7 @@ final class Set extends Type {
      *
      * @param mixed $value ,... One or more values to be added to the set. When no values are given, creates an empty set.
      *
-     * @throws Exception\InvalidArgumentException when values given are of a
+     * @throws \Cassandra\Exception\InvalidArgumentException when values given are of a
      *                                            different type than what this
      *                                            set type expects.
      *

@@ -79,7 +79,7 @@ final class UserType extends Type {
      *
      * @param mixed $value ,...      One or more name/value pairs to be added to the user type.
      *
-     * @throws Exception\InvalidArgumentException when values given are of a
+     * @throws \Cassandra\Exception\InvalidArgumentException when values given are of a
      *                                            different types than what the
      *                                            user type expects.
      *

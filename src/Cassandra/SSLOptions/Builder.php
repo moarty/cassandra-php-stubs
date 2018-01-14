@@ -22,7 +22,7 @@ namespace Cassandra\SSLOptions;
  * SSLOptions builder allows fluent configuration of ssl options.
  *
  * @see \Cassandra::ssl()
- * @see \Cluster\Builder::withSSL()
+ * @see \Cassandra\Cluster\Builder::withSSL()
  */
 final class Builder {
 
@@ -38,7 +38,7 @@ final class Builder {
      *
      * @param string $path ,... one or more paths to files containing a PEM formatted certificate.
      *
-     * @throws \Exception\InvalidArgumentException
+     * @throws \Cassandra\Exception\InvalidArgumentException
      *
      * @return Builder self
      */
@@ -49,7 +49,7 @@ final class Builder {
      *
      * @param int $flags
      *
-     * @throws \Exception\InvalidArgumentException
+     * @throws \Cassandra\Exception\InvalidArgumentException
      *
      * @return Builder self
      */
@@ -63,7 +63,7 @@ final class Builder {
      *
      * @param string $path path to a file containing a PEM formatted certificate.
      *
-     * @throws \Exception\InvalidArgumentException
+     * @throws \Cassandra\Exception\InvalidArgumentException
      *
      * @return Builder self
      */
@@ -76,7 +76,7 @@ final class Builder {
      * @param string $path Path to the private key file
      * @param string|null $passphrase Passphrase for the private key, if any
      *
-     * @throws \Exception\InvalidArgumentException
+     * @throws \Cassandra\Exception\InvalidArgumentException
      *
      * @return Builder self
      */
