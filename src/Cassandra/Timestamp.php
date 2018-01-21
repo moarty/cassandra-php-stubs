@@ -30,7 +30,7 @@ final class Timestamp implements Value {
      * @param int $seconds The number of seconds
      * @param int $microseconds The number of microseconds
      */
-    public function __construct($seconds, $microseconds) { }
+    public function __construct($seconds = null, $microseconds = null) { }
 
     /**
      * The type of this timestamp.
