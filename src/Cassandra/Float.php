@@ -21,7 +21,7 @@ namespace Cassandra;
 /**
  * A PHP representation of the CQL `float` datatype
  */
-final class Float_ implements Value, Numeric {
+final class Float implements Value, Numeric {
 
     /**
      * Creates a new float.
