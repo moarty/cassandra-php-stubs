@@ -26,8 +26,8 @@ final class Map implements Value, \Countable, \Iterator, \ArrayAccess {
     /**
      * Creates a new map of a given key and value type.
      *
-     * @param Type $keyType
-     * @param Type $valueType
+     * @param string $keyType
+     * @param string $valueType
      */
     public function __construct($keyType, $valueType) { }
 
