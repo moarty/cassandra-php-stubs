@@ -59,6 +59,6 @@ final class Collection extends \Cassandra\Type {
      *
      * @return \Cassandra\Collection A list with given values.
      */
-    public function create($value) { }
+    public function create(...$value) { }
 
 }

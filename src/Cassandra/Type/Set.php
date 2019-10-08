@@ -58,6 +58,6 @@ final class Set extends \Cassandra\Type {
      *
      * @return \Cassandra\Set A set with given values.
      */
-    public function create($value) { }
+    public function create(...$value) { }
 
 }

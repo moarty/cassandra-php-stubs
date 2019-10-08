@@ -48,7 +48,7 @@ interface Session {
      *
      * @return Rows A collection of rows.
      */
-    public function execute($statement, $options);
+    public function execute($statement, $options = null);
 
     /**
      * Execute a query asynchronously. This method returns immediately, but
@@ -61,7 +61,7 @@ interface Session {
      *
      * @see Session::execute() for valid execution options
      */
-    public function executeAsync($statement, $options);
+    public function executeAsync($statement, $options = null);
 
     /**
      * Prepare a query for execution.
@@ -87,7 +87,7 @@ interface Session {
      *
      * @see Session::execute() for valid execution options
      */
-    public function prepareAsync($cql, $options);
+    public function prepareAsync($cql, $options = null);
 
     /**
      * Close the session and all its connections.

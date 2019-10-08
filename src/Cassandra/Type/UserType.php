@@ -85,6 +85,6 @@ final class UserType extends \Cassandra\Type {
      *
      * @return \Cassandra\UserTypeValue A user type value with given name/value pairs.
      */
-    public function create($value) { }
+    public function create(...$value) { }
 
 }
