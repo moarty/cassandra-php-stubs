@@ -56,7 +56,7 @@ interface Keyspace {
      *
      * @param string $name Table name
      *
-     * @return Table|null Table instance or null
+     * @return Table|false Table instance or false
      */
     public function table($name);
 
