@@ -75,7 +75,7 @@ interface Session {
      *
      * @see Session::execute() for valid execution options
      */
-    public function prepare($cql, $options);
+    public function prepare($cql, $options = null);
 
     /**
      * Asynchronously prepare a query for execution.
@@ -98,7 +98,7 @@ interface Session {
      *
      * @return null Nothing.
      */
-    public function close($timeout);
+    public function close($timeout = null);
 
     /**
      * Asynchronously close the session and all its connections.
