@@ -26,19 +26,19 @@ interface Cluster {
     /**
      * Creates a new Session instance.
      *
-     * @param string $keyspace Optional keyspace name
+     * @param string|null $keyspace Optional keyspace name
      *
      * @return Session Session instance
      */
-    public function connect($keyspace);
+    public function connect($keyspace = null);
 
     /**
      * Creates a new Session instance.
      *
-     * @param string $keyspace Optional keyspace name
+     * @param string|null $keyspace Optional keyspace name
      *
      * @return Future A Future Session instance
      */
-    public function connectAsync($keyspace);
+    public function connectAsync($keyspace = null);
 
 }
