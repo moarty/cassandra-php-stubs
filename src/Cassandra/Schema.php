@@ -28,7 +28,7 @@ interface Schema {
      *
      * @param string $name Name of the keyspace to get
      *
-     * @return Keyspace Keyspace instance or null
+     * @return Keyspace|false Keyspace instance or false
      */
     public function keyspace($name);
 

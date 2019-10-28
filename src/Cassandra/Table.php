@@ -177,7 +177,7 @@ interface Table {
     /**
      * Returns all columns in this table
      *
-     * @return array A list of Column instances
+     * @return Column[] A list of Column instances
      */
     public function columns();
 
