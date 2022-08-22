@@ -144,7 +144,7 @@ final class Rows implements \Iterator, \ArrayAccess {
      *
      * @return Rows|null loads and returns next result page
      */
-    public function nextPage($timeout) { }
+    public function nextPage($timeout = null) { }
 
     /**
      * Get the next page of results asynchronously.
